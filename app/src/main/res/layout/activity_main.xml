@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="My Nanodegree Apps!"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/popular_movies"
+        style="@style/button"
+        android:text="@string/Popular_movies"
+        android:layout_marginTop="60dp" />
+    <Button
+        android:id="@+id/stock_hawk"
+        style="@style/button"
+        android:text="@string/Stock_hawk"
+        android:layout_marginTop="120dp" />
+    <Button
+        android:id="@+id/build_it_bigger"
+        style="@style/button"
+        android:text="@string/Build_it_bigger"
+        android:layout_marginTop="180dp" />
+    <Button
+        android:id="@+id/make_your_app_material"
+        style="@style/button"
+        android:text="@string/Make_your_app_material"
+        android:layout_marginTop="240dp" />
+    <Button
+        android:id="@+id/go_ubiquitous"
+        style="@style/button"
+        android:text="@string/Go_ubiquitous"
+        android:layout_marginTop="300dp" />
+    <Button
+        android:id="@+id/capstone"
+        style="@style/button"
+        android:text="@string/Capstone"
+        android:layout_marginTop="360dp" />
+</RelativeLayout>
